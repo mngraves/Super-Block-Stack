@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent">
+	<TextView
+		style="@style/scoreTableHeadText.player"
+		android:text="@string/col_player" />
+	<TextView
+		style="@style/scoreTableHeadText"
+		android:text="@string/col_score" />
+	<TextView 
+		style="@style/scoreTableHeadText"
+		android:text="@string/col_level" />
+	<TextView 
+		style="@style/scoreTableHeadText"
+		android:text="@string/col_tetris_count" />
+</TableRow>  

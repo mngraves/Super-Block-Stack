@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/newGameLayout"
+	style="@style/mainVerticalLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<LinearLayout
+		style="@style/centeringLayout">	
+		<ImageButton
+			android:id="@+id/new_game_button"
+			style="@style/newGameButton" />
+		
+		<ImageButton
+			android:id="@+id/exit_app_button"
+			style="@style/exitAppButton" />
+	</LinearLayout>
+	
+	<LinearLayout
+		style="@style/centeringLayout.scoreTableTitle">		
+	  	
+	  	<ImageView
+	  		style="@style/scoreTableTitle" />
+	</LinearLayout>
+  	<ScrollView
+  		android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:layout_marginLeft="10px">
+		<LinearLayout
+			style="@style/scoreTableBorder">
+			<TableLayout
+			    android:id="@+id/scores_table"
+			    style="@style/scoreTable">
+			      
+			</TableLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

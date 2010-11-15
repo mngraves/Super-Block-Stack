@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/gameOverLayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/gameOverLayout">
+	 
+	  	<TextView
+	        style="@style/gameOverTitle"
+	        android:text="@string/game_over_screen"/>	
+		
+	  	<TextView
+	  		style="@style/gameOverStatsTitle"
+	        android:text="@string/score_title"/>
+	  	<TextView
+	        style="@style/gameOverStatsValue"
+	        android:id="@+id/go_stat_score"
+	        android:text="1000"/>	        
+	        
+	  	<TextView
+	        style="@style/gameOverStatsTitle"
+	        android:text="@string/level_title"/>
+	  	<TextView
+	        style="@style/gameOverStatsValue"
+	        android:id="@+id/go_stat_level"
+	        android:text="5"/>		        
+	        
+	  	<TextView
+	        style="@style/gameOverStatsTitle"
+	        android:text="@string/lines_title"/>		        	        	
+	  	<TextView
+	        style="@style/gameOverStatsValue"
+	        android:id="@+id/go_stat_lines"
+	        android:text="53"/>	
+	        
+	  	<TextView
+	        style="@style/gameOverStatsTitle"
+	        android:text="@string/tetris_count_title"/>	
+	  	<TextView
+	        style="@style/gameOverStatsValue"
+	        android:id="@+id/go_stat_tetris_count"
+	        android:text="5"/>	
+	        	        		
+	  	<TextView
+	        style="@style/gameOverStatsTitle"
+	        android:text="@string/enter_player_name"/>
+	        
+		<EditText android:id="@+id/player_name" 
+			style="@style/gameOverPlayerNameInput" />
+					
+		<Button
+			android:id="@+id/save_score_button"
+			style="@style/saveScoreButton"
+			android:text="@string/save_score" />
+		<Button
+			android:id="@+id/quit_button"
+			style="@style/saveScoreButton"
+			android:text="@string/exit_app" />						
+
+</LinearLayout>

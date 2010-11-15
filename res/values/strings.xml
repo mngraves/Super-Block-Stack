@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="default_player_name">Player 1</string>
+    <string name="app_name">Super Block Stack</string>
+	<string name="new_game">New Game</string>
+	<string name="game_play_screen">This is the game play screen</string>
+	<string name="game_play_title">Stack the Blocks!</string>
+	<string name="pause_game">Pause Game</string>
+	<string name="exit_app">Quit</string>
+	<string name="enter_player_name">Player Name</string>
+	<string name="quit_game">Quit Game</string>
+	<string name="resume_game">Resume Game</string>
+	<string name="game_over_screen">Game Over</string>
+	<string name="save_score">Save Score</string>
+	<string name="score_title">Score</string>
+	<string name="level_title">Level</string>
+	<string name="lines_title">Lines</string>
+	<string name="tetris_count_title">Tetris Count</string>
+	<string name="main_bg_color">#FF6600</string>
+	
+	<!-- scores -->
+	<string name="top_scores">Top Scores</string>
+	<string name="no_scores">There are no recorded scores.</string>
+	<string name="col_player">Player</string>
+	<string name="col_score">Score</string>
+	<string name="col_level">Level</string>
+	<string name="col_tetris_count">Tetris</string>	
+</resources>
